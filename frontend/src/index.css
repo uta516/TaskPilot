@@ -1,0 +1,34 @@
+:root {
+  --bg: #f5f6fa;
+  --card-bg: #ffffff;
+  --text: #24262b;
+  --muted: #6b7280;
+  --border: #e2e4e9;
+  --primary: #3b5bdb;
+  --primary-hover: #2f4bc0;
+  --warn-bg: #fff7ed;
+  --warn-border: #fdba74;
+  --danger: #d9480f;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+select {
+  font-family: inherit;
+}
